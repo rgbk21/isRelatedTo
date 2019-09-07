@@ -8,8 +8,8 @@ public class WWWE {
 
     static final String BASE_URL = "https://en.wikipedia.org/";
     private final boolean DEBUGGING = true; // When set, report what's happening.
-    private final String targetSearchQuery = "/wiki/Karin_Thürig";//This stores the String that we are searching for
-    private String SEED_URL = "wiki/Greg_Mitchell";//this is appended to the BASE_URL to create the complete URL.
+    private final String targetSearchQuery = "/wiki/Lil_Nas_X";//This stores the String that we are searching for
+    private String SEED_URL = "wiki/Dalai_Lama";//this is appended to the BASE_URL to create the complete URL.
     private final int shingleLength = 5;//Stores the shinglelegnth used to calculate the simialrity
     private int nodesVisited = 0;
     boolean foundSolution = false;
@@ -25,7 +25,7 @@ public class WWWE {
     private String targetTextComponent;
     private int politeness = 0;//Timeout of 3s after howPolite number of page requests
     private int howPolite = 50;
-    private int sleepTime = 3;
+    private int sleepTime = 5;
 
     public void MostFrequentWordsTarget(String targetURL) {
 
