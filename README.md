@@ -1,5 +1,5 @@
 # isRelatedTo
-Code to find out a path from Wikipedia page A to another Wikipedia page B. YOu can read more about the project at this link: https://rgbk21.github.io/Projects/isRelatedTo/isRelatedTo.html
+Code to find out a path from Wikipedia page A to another Wikipedia page B. You can read more about the project at this link: https://rgbk21.github.io/Projects/isRelatedTo/isRelatedTo.html
 
 The code to find the path is in the WWWE.java file. 
 
